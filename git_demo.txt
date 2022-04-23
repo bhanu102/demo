@@ -1,0 +1,27 @@
+cloning the git repo into your local machine:
+git clone "GitHub_repository_URL"
+
+After making any changes you need to commit and track them:
+git add . or git add --all
+git commit -m "Added new dependency"
+
+So, the next step will be pushing these changes to the remote repository(GitHub)
+git push origin "branch_name"
+
+If you need to pull any changes from remote repo to local repo use the following command:
+git pull origin "branch_name"
+
+To check the current branch you are in:
+git branch
+
+Check already existing branches:
+git branch -a
+
+To check the status of the repo:
+git status
+
+version history can be checked using:
+git log
+
+To add a remote origin in local repo:
+git remote add origin "GitHub_repository_URL"
